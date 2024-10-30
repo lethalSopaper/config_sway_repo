@@ -27,7 +27,7 @@ set $menu dmenu_path | wmenu | xargs swaymsg exec --
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Dynamic Walppaper
 
-exec_always ~/.config/sway/scripts_1/set_background.sh 
+exec_always ~/.config/sway/scripts/set_background.sh 
 
 #output * bg /etc/sway/img/ fill
 #
@@ -41,7 +41,7 @@ exec_always ~/.config/sway/scripts_1/set_background.sh
 exec_always --no-startup-id numlockx on
 
 #BaterryWarning:
-exec_always --no-startup-id ~/.config/sway/scripts_1/battery_monitor.sh
+exec_always --no-startup-id ~/.config/sway/scripts/battery_monitor.sh
 
 #Dunst:
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
@@ -121,7 +121,7 @@ exec swayidle -w \
     floating_modifier $mod normal
 
     #bindsym Mod1+f floating toggle
-    bindsym Mod1+f exec ~/.config/sway/scripts_1/floating_toggle.sh
+    bindsym Mod1+f exec ~/.config/sway/scripts/floating_toggle.sh
 
     # Reload the configuration file
     bindsym $mod+Shift+c reload
@@ -266,10 +266,10 @@ bindsym $mod+Shift+r mode "resize"
 # Move Containers in grid 3x3:
 #
 mode "move" {
-    bindsym Left exec ~/.config/sway/scripts_1/move_left.sh
-    bindsym Down exec ~/.config/sway/scripts_1/move_down.sh
-    bindsym Up exec ~/.config/sway/scripts_1/move_up.sh
-    bindsym Right exec ~/.config/sway/scripts_1/move_right.sh
+    bindsym Left exec ~/.config/sway/scripts/move_left.sh
+    bindsym Down exec ~/.config/sway/scripts/move_down.sh
+    bindsym Up exec ~/.config/sway/scripts/move_up.sh
+    bindsym Right exec ~/.config/sway/scripts/move_right.sh
 
     bindsym Return mode "default"
     bindsym Escape mode "default"
@@ -304,9 +304,9 @@ bindsym $mod+Shift+m mode "move"
 #
 # Mic Volume
 #
-    bindsym Shift+XF86AudioRaiseVolume exec ./scripts_1/mic_vol_up.sh
-    bindsym Shift+XF86AudioLowerVolume exec ./etc/scripts_1/mic_vol_down.sh
-    bindsym XF86AudioMicMute exec ./scripts_1//toggle_all_mics.sh
+    bindsym Shift+XF86AudioRaiseVolume exec ~/.config/sway/scripts/mic_vol_up.sh
+    bindsym Shift+XF86AudioLowerVolume exec ~/.config/sway/scripts/mic_vol_down.sh
+    bindsym XF86AudioMicMute exec ~/.config/sway/scripts/toggle_all_mics.sh
 #
 # MediaPlaying
 #
@@ -316,8 +316,8 @@ bindsym $mod+Shift+m mode "move"
 #
 # ScreenShot:
 #
-    bindsym Print exec ./scripts_1/screenshot.sh
-    bindsym $mod+Print exec ./scripts_1/cut_screenshot.sh
+    bindsym Print exec ~/.config/sway/scripts/screenshot.sh
+    bindsym $mod+Print exec ~/.config/sway/scripts/cut_screenshot.sh
 #
 # ArmoryButto
 #
@@ -346,7 +346,7 @@ bindsym $mod+Shift+m mode "move"
 #
 # Toggle Hz:
 #
-    bindsym $mod+o exec /etc/sway/scripts_1/output_frec.sh
+    bindsym $mod+o exec ~/.config/sway/scripts/output_frec.sh
 
 # StatusBar:
 # Read `man 5 sway-bar` for more information about this section.
@@ -390,3 +390,4 @@ bindsym $mod+Shift+m mode "move"
 include /etc/sway/config.d/*
 
 exec waybar
+
