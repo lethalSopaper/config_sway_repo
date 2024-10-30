@@ -27,7 +27,7 @@ set $menu dmenu_path | wmenu | xargs swaymsg exec --
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Dynamic Walppaper
 
-exec_always ~/.config/sway/scripts/set_background.sh 
+exec_always ~/.config/sway/scripts/set_background.sh
 
 #output * bg /etc/sway/img/ fill
 #
