@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USERNAME=$(whoami)
-IMAGE_DIR="/etc/sway/img"
+IMAGE_DIR="~/.config/sway/img"
 USER_IMAGE="$IMAGE_DIR/$USERNAME"
 FALLBACK_IMAGE="$IMAGE_DIR/alternative"
 
