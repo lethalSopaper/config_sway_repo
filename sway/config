@@ -386,6 +386,9 @@ bindsym $mod+Shift+m mode "move"
 #    exec --no-startup-id GTK_THEME=Adwaita:dark code
 #set $GTK_THEME Adwaita:dark
 #exec_always --no-startup-id export GTK_THEME=Adwaita:dark
+set $GTK_THEME Adwaita:dark
+exec_always --no-startup-id dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK GTK_THEME=$GTK_THEME
+
 
 include /etc/sway/config.d/*
 
