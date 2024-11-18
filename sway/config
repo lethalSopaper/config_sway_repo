@@ -9,6 +9,9 @@
 set $GTK_THEME Adwaita:dark
 exec_always env GTK_THEME=$GTK_THEME
 
+#exec_always source ~/.config/environment.d/gtk.conf
+#exec_always GTK_THEME=$GTK_THEME thunar
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -299,7 +302,7 @@ bindsym $mod+Shift+m mode "move"
 #
 # Files:
 #
-    bindsym $mod+q exec thunar
+    bindsym $mod+q exec GTK_THEME=$GTK_THEME thunar
 #
 # Brightness:
 #
@@ -325,7 +328,7 @@ bindsym $mod+Shift+m mode "move"
 #
 # ArmoryButto
 #
-    bindsym XF86Launch3 exec flatpak run com.bitwarden.desktop
+    bindsym XF86Launch3 exec env GTK_THEME=$GTK_THEME flatpak run com.bitwarden.desktop
 #
 # Media players:
 #
@@ -337,7 +340,7 @@ bindsym $mod+Shift+m mode "move"
 #
 # Browser
 #
-    bindsym $mod+n exec firefox
+    bindsym $mod+n exec env GTK_THEME=$GTK_THEME firefox
 #
 # Gestures:
 #

@@ -1,0 +1,8 @@
+[settings]
+dmenu=true
+#show-icons=true
+font=Sans 16
+close-on-unfocus=true
+width=950
+height=550
+
