@@ -8,4 +8,3 @@ if [ -n "$source" ]; then
 else
     echo "No active microphone found."
 fi
-

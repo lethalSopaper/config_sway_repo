@@ -39,7 +39,7 @@
     scale = 0
 
     # Maximum number1 of notification (0 means no limit)
-    notification_limit = 20
+    notification_limit = 50
 
     ### Progress bar ###
 
@@ -346,21 +346,12 @@
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
 
-[warning]
-    appname = ".*"
-    category = "warning"
-    urgency = normal
-    format = "<b>%s</b>"
+[urgency_critical]
     background = "#d4c400"
     foreground = "#ffffff"
-    timeout = 10
-    override_pause_level = 30
-
-[urgency_critical]
-    background = "#900000"
-    foreground = "#4f0000"
     timeout = 60
     override_pause_level = 60
+    new_icon = ~/.config/dunst/img/battery-level-20-symbolic.svg
     # Icon for notifications with critical urgency, uncomment to enable
     #default_icon = /path/to/icon
 

@@ -273,10 +273,10 @@ bindsym $mod+Shift+r mode "resize"
 # Move Containers in grid 3x3:
 #
 mode "move" {
-    bindsym Left exec ~/.config/sway/scripts/move_left.sh
-    bindsym Down exec ~/.config/sway/scripts/move_down.sh
-    bindsym Up exec ~/.config/sway/scripts/move_up.sh
-    bindsym Right exec ~/.config/sway/scripts/move_right.sh
+    bindsym Left exec ~/.config/sway/scripts/move_mode/move_left.sh
+    bindsym Down exec ~/.config/sway/scripts/move_mode/move_down.sh
+    bindsym Up exec ~/.config/sway/scripts/move_mode/move_up.sh
+    bindsym Right exec ~/.config/sway/scripts/move_mode/move_right.sh
 
     bindsym Return mode "default"
     bindsym Escape mode "default"
@@ -378,7 +378,7 @@ bindsym $mod+Shift+m mode "move"
 #
 # Wokspaces management
 #
-    for_window [all] border normal 1
+    for_window [all] border normal 2
     for_window [app_id="org.gnome.Calculator"] floating enable
     for_window [class="discord"] floating enable, resize set 1500 900 
     bindsym Mod1+s sticky toggle
