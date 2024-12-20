@@ -1,2 +1,2 @@
-SharedData prtition:
+SharedData partition:
 UUID=4E829DFA829DE72D /run/media/lethalsopaper/shared ntfs-3g defaults,umask=000,uid=1000,gid=1000 0 0

@@ -24,5 +24,6 @@ if [ -d ~/.bashrc.d ]; then
 fi
 export XDG_CONFIG_HOME="$HOME/.config"
 export GTK_THEME=Adwaita:dark
+alias la='ls -la'
 
 unset rc

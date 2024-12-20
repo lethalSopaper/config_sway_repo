@@ -1,15 +1,15 @@
 configuration {
 /*	modes: "window,drun,run,ssh";*/
 font: "mono 15";
-/*	location: 0;*/
-/*	yoffset: 0;*/
-/*	xoffset: 0;*/
+location: 3;
+yoffset: 33;
+xoffset: 0;
 fixed-num-lines: true;
 show-icons: true;
-/*	terminal: "rofi-sensible-terminal";*/
+/*	terminal: "foot";*/
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
-/*	run-command: "{cmd}";*/
+/*  run-command: "{cmd}";*/
 /*	run-list-command: "";*/
 /*	run-shell-command: "{terminal} -e {cmd}";*/
 /*	window-command: "wmctrl -i -R {window}";*/
@@ -28,7 +28,7 @@ show-icons: true;
 /*	cycle: true;*/
 sidebar-mode: true;
 /*	hover-select: false;*/
-/*	eh: 1;*/
+/*  eh: 1; */
 /*	auto-select: false;*/
 /*	parse-hosts: false;*/
 /*	parse-known-hosts: true;*/
@@ -41,7 +41,7 @@ sidebar-mode: true;
 /*	threads: 0;*/
 /*	scroll-method: 0;*/
 /*	window-format: "{w}    {c}   {t}";*/
-/*	click-to-exit: true;*/
+click-to-exit: true;
 /*	max-history-size: 25;*/
 /*	combi-hide-mode-prefix: false;*/
 /*	combi-display-format: "{mode} {text}";*/
@@ -149,4 +149,4 @@ sidebar-mode: true;
       sorting-method:    "name";
   }
 }
-@theme "/home/lethalsopaper/.config/rofi/theme_custom.rasi"
+@theme "~/.config/rofi/theme_custom.rasi"

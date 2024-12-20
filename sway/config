@@ -33,7 +33,7 @@ set $menu dmenu_path | wmenu | xargs swaymsg exec --
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Dynamic Walppaper
 
-exec_always ~/.config/sway/scripts/set_background.sh
+    exec_always ~/.config/sway/scripts/set_background.sh
 
 #output * bg /etc/sway/img/ fill
 #
@@ -43,18 +43,18 @@ exec_always ~/.config/sway/scripts/set_background.sh
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
-#NumLockOn:
-exec_always --no-startup-id numlockx on
+### NumLockOn:
+    exec_always --no-startup-id numlockx on
 
-#BaterryWarning:
-exec_always --no-startup-id ~/.config/sway/scripts/battery_monitor.sh
+### BaterryWarning:
+    exec_always --no-startup-id ~/.config/sway/scripts/battery_monitor.sh
 
-#Dunst:
-exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
+### Dunst:
+    exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
 ### Idle configuration
 
-exec swayidle -w \
+    exec swayidle -w \
 	timeout 300 'if [[ $(playerctl status) != "Playing" ]]; then swaylock -f -e -i ~/.config/sway/img/lock/lock1 --font-size 22 --text-color ffffff --indicator-radius 65 --inside-color 8511b980 --ring-color 530c7480 --key-hl-color 6c0428 --inside-clear-color df5b0080 --ring-clear-color 8a380080 --inside-ver-color 188e0c80 --ring-ver-color 126b0980 --inside-wrong-color 9e000080 --ring-wrong-color 72000080; fi' \
 	timeout 900 'if [[ $(playerctl status) != "Playing" ]]; then swaymsg "output * power off"; fi' \
 	resume 'swaymsg "output * power on"' \
@@ -115,10 +115,11 @@ exec swayidle -w \
     # Kill focused window
     bindsym Mod1+f4 kill
 
-    # Start your launcher
-#    bindsym $mod+m exec env GTK_THEME=$GTK_THEME wofi --show drun
+    # Start Rofi
     bindsym $mod+m exec env GTK_THEME=$GTK_THEME rofi -config ~/.config/rofi/config.rasi -show drun
-#    bindsym $mod+m exec rofi -show drun
+
+    # Start dmenu
+    bindsym $mod+d exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -380,7 +381,7 @@ bindsym $mod+Shift+m mode "move"
 #
     for_window [all] border normal 2
     for_window [app_id="org.gnome.Calculator"] floating enable
-    for_window [class="discord"] floating enable, resize set 1500 900 
+    for_window [class="discord"] floating enable, resize set 1500 900
     bindsym Mod1+s sticky toggle
 #
 # Container style
@@ -396,5 +397,4 @@ bindsym $mod+Shift+m mode "move"
 
 include /etc/sway/config.d/*
 
-exec waybar
-
+exec env GTK_THEME=$GTK_THEME waybar
