@@ -37,28 +37,116 @@ window#waybar {
 		background-color: green;
 	}
 	10% {
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), transparent, transparent, transparent, transparent, transparent, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
 	20% {
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), transparent, transparent, transparent, transparent, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
-	30%{
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), transparent, transparent, transparent, transparent, transparent);
+	30% {
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
 	40% {
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), transparent, transparent, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			transparent,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
 	50% {
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), transparent, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			transparent,
+			transparent,
+			transparent
+		);
 	}
 	60% {
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), transparent, transparent);
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			transparent,
+			transparent
+		);
 	}
 	70% {
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), transparent);
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			transparent
+		);
 	}
 	80% {
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+		background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8),
+			rgba(255, 255, 255, 0.8)
+		);
 	}
 	90% {
 		background-color: green;
@@ -70,28 +158,116 @@ window#waybar {
 		background-color: green;
 	}
 	10% {
-		background: linear-gradient(to right, #1aff00, #1aff00, transparent, transparent, transparent, transparent, transparent, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			#1aff00,
+			#1aff00,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
 	20% {
-		background: linear-gradient(to right, #1aff00, #1aff00, #1aff00, transparent, transparent, transparent, transparent, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
-	30%{
-		background: linear-gradient(to right, #1aff00, #1aff00, #1aff00, #1aff00, transparent, transparent, transparent, transparent, transparent);
+	30% {
+		background: linear-gradient(
+			to right,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			transparent,
+			transparent,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
 	40% {
-		background: linear-gradient(to right, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, transparent, transparent, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			transparent,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
 	50% {
-		background: linear-gradient(to right, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, transparent, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			transparent,
+			transparent,
+			transparent
+		);
 	}
 	60% {
-		background: linear-gradient(to right, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, transparent, transparent);
+		background: linear-gradient(
+			to right,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			transparent,
+			transparent
+		);
 	}
 	70% {
-		background: linear-gradient(to right, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, transparent);
+		background: linear-gradient(
+			to right,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			transparent
+		);
 	}
 	80% {
-		background: linear-gradient(to right, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00, #1aff00);
+		background: linear-gradient(
+			to right,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00,
+			#1aff00
+		);
 	}
 	90% {
 		background-color: #1aff00;
@@ -230,14 +406,14 @@ button:hover {
 }
 
 #workspaces button:hover {
-	animation: popup 0.3s;
+	/* animation: popup 0.2s; */
 	background: rgba(255, 255, 255, 0.8);
 	color: #000000;
 	border-radius: 5px;
 }
 
 #workspaces button.focused {
-	animation: popup 0.3s;
+	/* animation: popup 0.3s; */
 	background-color: #5e0b83;
 	border-radius: 5px;
 }
@@ -330,7 +506,7 @@ button:hover {
 	border-bottom-left-radius: 0px;
 	margin-left: 1px;
 	padding-left: 10px;
-	padding-right:10px;
+	padding-right: 10px;
 }
 
 #pulseaudio-slider slider {
@@ -409,7 +585,7 @@ button:hover {
 	border-radius: 5px;
 }
 
-#battery{
+#battery {
 	color: #ffffff;
 	background-color: green;
 	padding-left: 8px;
@@ -419,12 +595,12 @@ button:hover {
 	border-right: 2px solid #101010;
 }
 
-#battery.charging{
+#battery.charging {
 	color: #ffffff;
 	animation: blink-background-charging 1s infinite;
 }
 
-#battery.plugged{
+#battery.plugged {
 	color: #ffffff;
 	animation: blink-background-charged 1s infinite;
 }
@@ -445,12 +621,12 @@ button:hover {
 }
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
-#battery.warning:not(.charging){
+#battery.warning:not(.charging) {
 	animation: blink-background-warning 1s infinite;
 	color: #000000;
 }
 
-#battery.critical:not(.charging){
+#battery.critical:not(.charging) {
 	animation: blink-background-r 1s infinite;
 	color: #ffffff;
 }
@@ -463,19 +639,19 @@ button:hover {
 
 #power-profiles-daemon.balanced {
 	background-color: #0016e0;
-	box-shadow: inset  -3px -3px rgba(0, 0, 0, 0.8);
+	box-shadow: inset -3px -3px rgba(0, 0, 0, 0.8);
 	color: #ffffff;
 }
 
 #power-profiles-daemon.performance {
 	background-color: #9e0000;
-	box-shadow: inset  -3px -3px rgba(0, 0, 0, 0.5);
+	box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
 	color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
 	background-color: #517400;
-	box-shadow: inset  -3px -3px rgba(0, 0, 0, 0.5);
+	box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
 	color: #ffffff;
 }
 
